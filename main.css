@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.block1 {
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons1 {
+    margin: 3px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.edit,
+.style,
+.add,
+.save {
+    margin: 2px;
+    width: 50px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border: 0px solid #000;
+}
+
+.edit {
+    background-color: gold;
+}
+
+.edit:hover {
+    background-color: goldenrod;
+}
+
+.edit:focus {
+    box-shadow: 0 0 2px 2px yellow;
+}
+
+.style {
+    background-color: deepskyblue;
+}
+
+.style:hover {
+    background-color: dodgerblue;
+}
+
+.style:focus {
+    box-shadow: 0 0 2px 2px lightskyblue;
+}
+
+.block2 {
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.block2-edit {
+    display: none;
+}
+
+.block2-edit-textarea {
+    padding: 0 50px;
+    width: 100%;
+    height: 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    outline: none;
+}
+
+.block2-edit-textarea:focus {
+    box-shadow: 0 0 2px 2px lightskyblue;
+}
+
+.add {
+    background-color: crimson;
+}
+
+.add:hover {
+    background-color: firebrick;
+}
+
+.add:focus {
+    box-shadow: 0 0 2px 2px indianred;
+}
+
+.save {
+    background-color: limegreen;
+}
+
+.save:hover {
+    background-color: green;
+}
+
+.save:focus {
+    box-shadow: 0 0 2px 2px lime;
+}
+.block2-style-form{
+    display: none;
+} 
+.block2-style {
+    display: flex;
+}
+.block2-style-right, .block2-style-left{
+    width: 50%;
+}
+.block2-style-title {
+    font-weight: 700;
+}
+
+.radio {
+    margin: 0 5px 0 10px;
+}
+
+.radio:first-of-type {
+    margin: 0 5px 0 0;
+}
+
+.choose-font-family {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+.choose-font-family:hover, .width-border:hover, .choose-type-of-border:hover, .choose-color-of-border:hover, .block3-input-countTR:hover, .block3-input-countTD:hover, .block3-input-widthTD:hover,.block3-input-heightTD:hover, .choose-type-of-marks:hover, .block3-input-countLI:hover{
+    box-shadow: 0 0 2px 2px lightskyblue;
+}
+
+.color-of-text,
+.background-color {
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    border: 0px solid #000;
+}
+
+.color-of-text:hover,
+.background-color:hover {
+    background-color: dimgray;
+}
+
+.color-of-text:focus,
+.background-color:focus {
+    box-shadow: 0 0 2px 2px darkgray;
+}
+
+.font-style {
+    margin: 0 5px 0 0;
+}
+
+.font-style:last-of-type {
+    margin: 0 5px 0 10px;
+}
+.block2-style-right{ 
+    display: none;
+}
+.block-color{
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.small-block1, .small-block2,
+.small-block3, .small-block4,
+.small-block5, .small-block6,
+.small-block7, .small-block8,
+.small-block9 {
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    border: 1px solid lightgrey;
+}
+.small-block1 {
+    background-color: red;
+}
+.small-block2 {
+    background-color: blue;
+}
+.small-block3 {
+    background-color: green;
+}
+.small-block4 {
+    background-color: black;
+}
+.small-block5 {
+    background-color: yellow;
+}
+.small-block6 {
+    background-color: palevioletred;
+}
+.small-block7 {
+    background-color: white;
+}
+.small-block8 {
+    background-color: purple;
+}
+.small-block9 {
+    background-color: dodgerblue;
+}
+.container2 {
+    width: 800px;
+    margin: 20px auto;
+    display: none;
+}
+.block3 {
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.block3-title{
+    font-weight: 600;
+    font-size: 28px;
+}
+.block3-radio-list{
+    margin: 0 5px 0 10px;
+}
+.block3-radio-table{
+    margin: 0 5px 0 0;
+}
+.block3-input-center, .block3-table-border{
+    display: flex;
+    justify-content: space-between; 
+}
+.block3-table-border{
+    align-items: center;
+}
+.block3-input-left, .block3-input-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.block3-input-left{
+  width: 20%;
+}
+.block3-input-right{
+    width: 80%;
+}
+.block3-input-countTR, .block3-input-countTD, .block3-input-widthTD, .block3-input-heightTD, .block3-input-countLI{
+    margin: 5px 0;
+    padding: 0 0 0 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    outline: none;
+}
+.create-table-semititle{
+    font-weight: 600;
+}
+.width-border, .choose-type-of-border, .choose-color-of-border{
+    width: 100px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    outline: none;
+}
+.block3-input{
+    outline: none;
+}
+.create-your-table, .create-your-list{
+    margin: 10px 0;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border: 0px solid #000;
+    border-radius: 5px;
+    color: white;
+}
+.create-your-table:hover, .create-your-list:hover{
+    background-color: darkgreen;
+}
+.choose-type-of-marks{
+    widows: 100%;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    outline: none;
+}
+.create-table, .create-list{
+    display: none;
+}
